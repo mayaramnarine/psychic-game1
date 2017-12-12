@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>Psychic Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+
+<body>
+  <div id="game">
+  </br>
+    <h1> Psychic Game</h1>
+  </br>
+</br>
+    <p>Guess what letter I'm thinking of</p>
+  </br>
+    <p>Wins:</p>
+  </br>
+    <p>Losses:</p>
+  </br>
+    <p>Guesses Left:</p>
+  </br>
+    <p>Your Guesses so far:</p>
+  </div>
+</html>
+
+
+
+  <script>
+  alert("everything should work")
+
+
+    var wins = 0;
+    var losses = 0;
+    var guessesLeft = 0;
+    var guessesSoFar = "";
+    var computerChoices =['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l,', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',]
+
+
+    document.onkeyup = function(event){
+
+    }
+
+      if (guessesSoFar = computerGuess) {
+        wins++;
+        guessesLeft ="";
+        guessesSoFar.length = 0;
+      }
+      else if (guessesLeft = 0){
+        losses++;
+        guessesLeft = "";
+        guessesSoFar.length =0;
+      }
+      else if (guessesSoFar = computerGuess){
+        guessesLeft--;
+      }
+
+
+</script>
+<script src="assets/javascript/game.js"> </script>
+</body>
+</html>
